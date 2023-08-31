@@ -2,7 +2,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Details from "./components/details/Details";
+import DetailsBigData from "./components/details/DetailsBigData";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/details" element={<Details />} />
+          <Route path="/detailsBigDATA" element={<DetailsBigData />} />
+          {/* <Route path="/detailsIA" element={<Details />} />*/}
         </Routes>
       </BrowserRouter>
       <Footer />

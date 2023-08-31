@@ -4,10 +4,6 @@ import React from "react";
 const Card = ({ cardImage,cardTitle,cardSubtitle,cardText}) => {
   return (
     <Box>
-      <Link
-        href="http://localhost:3000/details"
-        sx={{ textDecoration: "none" }}
-      >
         {" "}
         <CardMedia
           component="img"
@@ -32,7 +28,6 @@ const Card = ({ cardImage,cardTitle,cardSubtitle,cardText}) => {
             {cardText}
           </Typography>
         </CardContent>
-      </Link>
     </Box>
   );
 };

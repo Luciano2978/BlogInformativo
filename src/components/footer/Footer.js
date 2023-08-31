@@ -13,41 +13,24 @@ const Footer = () => {
       <Stack direction={{ xs: "row", md: "row" }} p={7}>
         <Box flex={1}>
           <Typography color={"white"} align={"center"}>
-            Contact Us
+            Integrantes
           </Typography>
           <Typography color={"white"} align={"center"}>
-            of squamate reptiles, with over 6,000 species,
+            -Ortega Martin
           </Typography>
           <Typography color={"white"} align={"center"}>
-            continents except Antarcti
-          </Typography>
-          <Typography color={"white"} align={"center"}>
-            ranging across
+            -Rojas Luciano
           </Typography>
         </Box>
         <Box flex={1}>
           <Typography color={"white"} align={"center"}>
-            Data policy
+            Aspectos Profesionales
           </Typography>
           <Typography color={"white"} align={"center"}>
-            cookies
+            Docente:
           </Typography>
           <Typography color={"white"} align={"center"}>
-            Data Safety
-          </Typography>
-        </Box>
-        <Box flex={1}>
-          <Typography color={"white"} align={"center"}>
-            Categories
-          </Typography>
-          <Typography color={"white"} variant={"body2"} align={"center"}>
-            Kids
-          </Typography>
-          <Typography color={"white"} variant={"body2"} align={"center"}>
-            Women
-          </Typography>
-          <Typography color={"white"} variant={"body2"} align={"center"}>
-            Men
+            Nombre
           </Typography>
         </Box>
         <Box>

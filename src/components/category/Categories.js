@@ -25,17 +25,17 @@ const Categories = () => {
         spacing={{ xs: 1, sm: 2, md: 4 }}
         mt={5}
       >
-        <StyledBox sx={{ backgroundImage: `url(${kidsImage})` }}>
+        <StyledBox >
           <StyledTypography align="center" variant="h3">
             Kids
           </StyledTypography>
         </StyledBox>
-        <StyledBox sx={{ backgroundImage: `url(${menImage})` }}>
+        <StyledBox >
           <StyledTypography align="center" variant="h3">
             Men
           </StyledTypography>
         </StyledBox>
-        <StyledBox sx={{ backgroundImage: `url(${womenImage})` }}>
+        <StyledBox sx={{ backgroundImage: "url" }}>
           <StyledTypography align="center" variant="h3">
             Women
           </StyledTypography>
