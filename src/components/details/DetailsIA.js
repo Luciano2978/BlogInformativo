@@ -4,8 +4,9 @@ import detailsImage from "../../static/image5.jpg";
 import postImage from "../../static/image3.jpg";
 import Rightbar from "../rightbar/Rightbar";
 import _QuesEsIA from './IATxt/QueEsIA.txt'; //este archivo esta en mi ubicacion, contiene el texto "Hola Mundo!!..."
-
-
+import txtIATrabajo from "./IATxt/IATrabajo.txt"
+import txtLowCode from "./IATxt/IALowCode.txt"
+import txtConclusion from "./IATxt/IAConclusion.txt"
 
 const DetailsIA = () => {
   
@@ -14,6 +15,25 @@ const DetailsIA = () => {
   fetch(_QuesEsIA)
   .then(r => r.text())
   .then(text => { setQueEsIa(text) });
+
+  const [IATrabajo, setIATrabajo] = useState("");
+ 
+  fetch(txtIATrabajo)
+  .then(r => r.text())
+  .then(text => { setIATrabajo(text) });
+
+  const [IALowCode, setIALowCode] = useState("");
+ 
+  fetch(txtLowCode)
+  .then(r => r.text())
+  .then(text => { setIALowCode(text) });
+
+
+  const [IAConclusion, setIAConclusion] = useState("");
+ 
+  fetch(txtConclusion)
+  .then(r => r.text())
+  .then(text => { setIAConclusion(text) });
 
 
   return (
@@ -42,7 +62,7 @@ const DetailsIA = () => {
           spacing={{ xs: 1, sm: 2, md: 8 }}
           mt={8}
         >
-          <Box flex={3} sx={{ padding: "18px 100px 100px 100px" }}>
+          <Box flex={3} >
             <Typography
               m={4}
               align="center"
@@ -64,11 +84,11 @@ const DetailsIA = () => {
             <CardMedia
               component="img"
               height="500px"
-              image="https://i2.wp.com/gestioncomplejidad.com/wp-content/uploads/2016/10/Complejidad-tecnologica.jpg?fit=412%2C291"
+              image="https://media.licdn.com/dms/image/D5612AQGBuj568U7XOA/article-cover_image-shrink_720_1280/0/1687542210847?e=2147483647&v=beta&t=3lSaKHI8YKoNC8gTMqQxGdF6X3p4dDXP4OdB3yGY8Ok"
               alt="Bid-Data-Image"
             />
             <Typography align="center" variant="h5" mt={2}>
-              Cómo afecta el Big-data a la sociedad en general.
+              La IA hará parte de mi trabajo, pero no me preocupa.
             </Typography>
             <Typography
               m={4}
@@ -77,10 +97,10 @@ const DetailsIA = () => {
               variant="body1"
               sx={{ fontWeight: 900 }}
             >
-             
+             {IATrabajo}
             </Typography>
             <Typography align="center" variant="h5" mt={2}>
-              La Privacidad y la Ley
+              ¿Cómo afectará la inteligencia artificial al desarrollo low-code?
             </Typography>
             <Typography
               m={4}
@@ -89,10 +109,10 @@ const DetailsIA = () => {
               variant="body1"
               sx={{ fontWeight: 900 }}
             >
-              
+              {IALowCode}
             </Typography>
             <Typography align="center" variant="h5" mt={2}>
-              Conclusion
+              Conclusión
             </Typography>
             <Typography
               m={4}
@@ -101,7 +121,7 @@ const DetailsIA = () => {
               variant="body1"
               sx={{ fontWeight: 900 }}
             >
-              
+              {IAConclusion}
             </Typography>
             
           </Box>

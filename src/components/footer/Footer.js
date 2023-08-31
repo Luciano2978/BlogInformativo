@@ -16,10 +16,10 @@ const Footer = () => {
             Integrantes
           </Typography>
           <Typography color={"white"} align={"center"}>
-            -Ortega Martin
+            -ORTEGA MARTIN
           </Typography>
           <Typography color={"white"} align={"center"}>
-            -Rojas Luciano
+            -ROJAS LUCIANO
           </Typography>
         </Box>
         <Box flex={1}>
@@ -30,7 +30,7 @@ const Footer = () => {
             Docente:
           </Typography>
           <Typography color={"white"} align={"center"}>
-            Nombre
+            HOFEREK, SILVIA ROSANA
           </Typography>
         </Box>
         <Box>

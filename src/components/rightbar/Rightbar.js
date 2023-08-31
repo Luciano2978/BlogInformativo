@@ -33,6 +33,16 @@ const Rightbar = () => {
             secondary={"-El impacto del Big-data en la Sociedad de la Información. Significado y utilidad,Antonio Monleón-Getino,25 de noviembre de 2015"}
           />
         </ListItem>
+        <ListItem alignItems="flex-end">
+          <ListItemText
+              secondary={"-¿Cómo afecta la inteligencia artificial al desarrollo low-code?,valneo 01 de marzo de 2023"}
+          />
+        </ListItem>
+        <ListItem alignItems="flex-end">
+          <ListItemText
+            secondary={"-La IA hará parte de mi trabajo, pero no me preocupa,ARANTXA HERRANZ,08 de septiembre de 2015"}
+          />
+        </ListItem>
 
       </List>
     </Box>

@@ -1,0 +1,3 @@
+El desarrollo low-code es un método de desarrollo de software que utiliza interfaces visuales y herramientas de arrastrar y soltar para crear aplicaciones con una programación mínima.
+La IA puede mejorar enormemente el desarrollo low-code proporcionando herramientas y servicios que automaticen ciertos aspectos del proceso de desarrollo y faciliten a los usuarios no técnicos la creación de aplicaciones complejas.
+Una forma en que la IA podría afectar al desarrollo low-code es proporcionando sugerencias de código inteligente y autocompletado. Esto permitiría a los desarrolladores de low-code escribir código más rápido y con menos errores.

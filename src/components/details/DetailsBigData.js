@@ -56,7 +56,7 @@ const Details = () => {
           spacing={{ xs: 1, sm: 2, md: 8 }}
           mt={8}
         >
-          <Box flex={3} sx={{ padding: "18px 100px 100px 100px" }}>
+          <Box flex={3} >
             <Typography
               m={4}
               align="center"
