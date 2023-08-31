@@ -1,0 +1,3 @@
+Se calcula que la automatización eliminará 75 millones de empleos para 2025. Otros estudios estiman que entre 400 y 800 millones de personas serán desplazadas de sus puestos de trabajo en 2030 debido a la automatización.
+Este impacto se hará notar en disciplinas tan diversas y variadas como los radiólogos, preparadores de hamburguesas, taxistas y repartidores o periodistas.
+Pero, ¿qué pasa con los programadores y desarrolladores de código? ¿Cuánto de su trabajo es puramente rutinario y puede ser, por tanto, altamente automatizable? ¿Programar será en el futuro una cosa de máquinas?

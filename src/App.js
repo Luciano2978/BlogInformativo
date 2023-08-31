@@ -3,6 +3,7 @@ import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DetailsBigData from "./components/details/DetailsBigData";
+import DetailsIA from "./components/details/DetailsIA.js";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/detailsBigDATA" element={<DetailsBigData />} />
-          {/* <Route path="/detailsIA" element={<Details />} />*/}
+          <Route path="/detailsIA" element={<DetailsIA />} />
         </Routes>
       </BrowserRouter>
       <Footer />
